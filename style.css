@@ -1,0 +1,93 @@
+body {
+  min-height: 100vh;
+  background-color: rgb(211, 221, 69);
+}
+
+section {
+  height: 844px;
+  width: 390px;
+  border: 1px solid black;
+  background-image: url(/Pictures/13\ Pro\ -\ 2.png);
+  z-index: -20;
+}
+.lemon_pic {
+  position: absolute;
+  z-index: 0;
+}
+.menth_pic {
+  z-index: 1;
+}
+
+.both_pics {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  animation-name: fade;
+  animation-duration: 2s;
+}
+.main_title {
+  color: #2e601b;
+  font-size: 38px;
+  font-family: "Dela Gothic One", cursive;
+  text-align: center;
+  margin-bottom: 50px;
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+a:link,
+:visited {
+  text-decoration: none;
+  font-family: "Dela Gothic One", cursive;
+  color: #2e601b;
+}
+a:hover {
+  color: rgb(27, 142, 4);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+}
+
+.socialsF {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15%;
+  margin-bottom: 10%;
+  animation-name: fade;
+  animation-duration: 2s;
+}
+.socialsY {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15%;
+  margin-bottom: 10%;
+  animation-name: fade;
+  animation-duration: 2s;
+}
+.socialsI {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15%;
+  margin-bottom: 10%;
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes up {
+  0% {
+    transform: translateY(100);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
